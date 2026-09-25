@@ -82,16 +82,25 @@ J. R. R. Tolkien murió el <time datetime="1973-09-02">2 de septiembre de 1973</
         <p>
             <h3>Su familia estaba compuesta</h3>
             <dl>
-                <dt>Familiares</dt>
-                <dd>Padre: Arthur Reuel Tolkien, empleado de un banco.</dd>
-                <dd>Madre: Mabel Suffield Tolkien, quien educó a Tolkien y a su hermano Hilary</dd>
-                <dd>Esposa: Edith Mary Bratt, con quien se casó en 1916.</dd>
-                <dt>Hijos</dt>
-                <dd>John Francis Reuel Tolkien (1917–2003).</dd>
-                <dd>Michael Hilary Reuel Tolkien (1920–1984).</dd>
-                <dd>Christopher John Reuel Tolkien (1924–2020).</dd>
-                <dd>Priscilla Mary Anne Reuel Tolkien (1929–2022).</dd>
-            </dl><!--"dl,(dt,dd)Es otra forma de hacer una lista descriptiva, es una lista de términos, con una descripción de cada término."-->
+                <details><!--"details" sirbe para hacer un menú desplegable-->
+                    <summary><dt>Familiares</dt></summary><!--"summary" sirbe para poner de titulo al "details"-->
+                    <dd>Padre: Arthur Reuel Tolkien, empleado de un banco.</dd>
+                    <dd>Madre: Mabel Suffield Tolkien, quien educó a Tolkien y a su hermano Hilary</dd>
+                    <dd>Esposa: Edith Mary Bratt, con quien se casó en 1916.</dd>
+                </details>
+            </dl> 
+                <dl>
+                    <details>
+                        <summary>
+                            <dt>Hijos</dt>
+                        </summary>
+                        <dd>John Francis Reuel Tolkien (1917–2003).</dd>
+                        <dd>Michael Hilary Reuel Tolkien (1920–1984).</dd>
+                        <dd>Christopher John Reuel Tolkien (1924–2020).</dd>
+                        <dd>Priscilla Mary Anne Reuel Tolkien (1929–2022).</dd>
+                    </details>
+                </dl>
+            <!--"dl,(dt,dd)Es otra forma de hacer una lista descriptiva, es una lista de términos, con una descripción de cada término."-->
         </p>
     </article>
 </section>
@@ -112,14 +121,14 @@ Décadas después, las historias volvieron a alcanzar una enorme popularidad gra
 </p>
     </article>
 </section>
-<section>
+<section id="obras">
     <article>
-        <h2 id="obras">Obras Literarias de Tolkien</h2>
+        <h2>Obras Literarias de Tolkien</h2>
         <table><!--"table" me permite crear tablas-->
             <thead><!--"thead" es el encabezado de la tabla-->
                 <tr><!--"tr" es la fila del encabezado, donde va los titulos-->
-                    <th>Obra</th><!--"th" son las columnas del encabezado-->
-                    <th>Año</th>
+                    <th>Año</th><!--"th" son las columnas del encabezado-->
+                    <th>Obra</th>
                     <th>Género</th>
                 </tr>
             </thead>
