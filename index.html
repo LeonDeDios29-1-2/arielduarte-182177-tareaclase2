@@ -167,7 +167,33 @@ Décadas después, las historias volvieron a alcanzar una enorme popularidad gra
         </table>
     </article>
 </section>
+<section>
+    <h2>Valoción del mejor libro de <abbr title="Lord of de Ring">LoR</abbr> según los Fans</h2>
+    <ol>
+        <li>
+            <meter value="100" min="0" max="100">El Retorno del Rey</meter>
+        </li>
+        <li>
+            <meter value="80" min="0" max="100">La Comunidad del Anillo</meter>
+        </li>
+        <li>
+            <meter value="56" min="0" max="100">Las Dos Torres</meter>
+        </li>
+    </ol><!--"ol" es para hacer una lista ordenada, "li" es para inidar el item de orden. "meter" es para hacer un gráfico de valor con "value" para darle el valor, "min" para darle rango minimo y "max" el rango máximo-->
+</section>
+<section>
+    <form oninput="resultado.value = libros.value">
+    <label>¿Qué libro te gustó más?</label>
 
+    <select id="libros">
+        <option value="Saga de LoR">Saga de LoR</option>
+        <option value="El Hobbit">El Hobbit</option>
+        <option value="Silmarilion">Silmarilion</option>
+    </select>
+
+    <p>Respuesta: <output name="resultado"></output></p><!--"output" nos permite mostrar la selección que el usuario tiene en la interacción con la web. Aclaro que para hacer esta sección use ChatGpt para poder incorporarlo y ver como es el resultado.-->
+</form>
+</section>
 </main>
 
 <footer>
@@ -180,9 +206,14 @@ Décadas después, las historias volvieron a alcanzar una enorme popularidad gra
         <label>Correo:</label>
         <input type="email">
         <button type="submit">Enviar</button><!--"botton" es el botón que agregamos con "submit" damos la orden de enviar el formulario-->
-  
+        <label>¿Qué libro te gusto más?</label>
+
+
 </form></dialog><!--"dialog" crear una ventana de diálogo o cuadro emergente dentro de la página-->
 </section>
+<section><p>Esta Web aun esta en construcción...</p>
+
+<progress value="65" max="100"></progress></section><!--"progress" es para indicar que hay un avanace en una tarea, por lo general se usa para descargar un archivo o algo se esta instalando-->
 </footer><!--footer es la parte donde sería el final de la web, contiene las redes sociales, logos y -->
 </body>
 </html>
