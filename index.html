@@ -57,12 +57,12 @@ J. R. R. Tolkien murió el <time datetime="1973-09-02">2 de septiembre de 1973</
         <p>
             <h3>Libros editados por Christopher Tolkien</h3>
             <ul>
-                <li>El Silmarillion - 1973</li>
-                <li>Cuentos Inconclusos - 1980</li>
-                <li>La historia de la Tierra Media - 1983~1996</li>
-                <li>Los hijos de Húrin - 2007</li>
-                <li>Beren y Lúthien - 2017</li>
-                <li>La caída de Gondolin - 2018</li><!--"li" son items de una lista que esta dentro de una "ul" o "ol"-->
+                <li>El Silmarillion - <data value="1973">1973</data></li><!--"data" sirve para asociar un valor que puede interpretar el navegador-->
+                <li>Cuentos Inconclusos - <data value="1980">1980</data></li>
+                <li>La historia de la Tierra Media - <data value="1983-1996">1983~1996</data></li>
+                <li>Los hijos de Húrin - <data value="2007">2007</data></li>
+                <li>Beren y Lúthien - <data value="2017">2017</data></li>
+                <li>La caída de Gondolin - <data value="2018">2018</data></li><!--"li" son items de una lista que esta dentro de una "ul" o "ol"-->
             </ul><!--"ul" es una lista desordenada de objetos en la web-->
         </p>
     </article>
@@ -167,22 +167,22 @@ Décadas después, las historias volvieron a alcanzar una enorme popularidad gra
         </table>
     </article>
 </section>
-<section>
-    <h3>Para resivir novedades suscribase a nuestro newsletter</h3>
-  <form><!--"form" contiene el formulario-->
-    <label>Nombre:</label><!--"label" Indica el que debe ingresar el usuario-->
-    <input type="text"><!--"input" Es donde se ecribe la infromación que el usuario otorga "text, email" sería el tipo de información permitida a ingresar-->
 
-    <label>Correo:</label>
-    <input type="email">
-
-    <button type="submit">Enviar</button><!--"botton" es el botón que agregamos con "submit" damos la orden de enviar el formulario-->
-</form>  
-</section>
 </main>
-<!--footer es la parte donde sería el final de la web, contiene las redes sociales, logos y -->
-<footer>
 
-</footer>
+<footer>
+<section>
+    <dialog open=""><h4>Para recibir novedades suscribase a nuestro newsletter</h4>
+  
+      <form><!--"form" contiene el formulario-->
+        <label>Nombre:</label><!--"label" Indica el que debe ingresar el usuario-->
+        <input type="text"><!--"input" Es donde se ecribe la infromación que el usuario otorga "text, email" sería el tipo de información permitida a ingresar-->
+        <label>Correo:</label>
+        <input type="email">
+        <button type="submit">Enviar</button><!--"botton" es el botón que agregamos con "submit" damos la orden de enviar el formulario-->
+  
+</form></dialog><!--"dialog" crear una ventana de diálogo o cuadro emergente dentro de la página-->
+</section>
+</footer><!--footer es la parte donde sería el final de la web, contiene las redes sociales, logos y -->
 </body>
 </html>
